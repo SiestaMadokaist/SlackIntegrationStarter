@@ -1,0 +1,8 @@
+{
+  "mocha.files.glob": "src/**/**.test.js",
+  "mocha.files.ignore": [
+    "**/.git/**/*",
+    "**/node_modules/**/*",
+    "src/**/**.integration.test.js"
+  ],
+}
