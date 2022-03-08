@@ -12,12 +12,24 @@
       "it": "readonly"
   },
   "rules": {
-      "indent": [
-          2,
-          "space"
-      ],
-      "no-tabs": 0,
-      "no-param-reassign": 0,
-      "import/no-dynamic-require": 0
+    "no-console": "off",
+    "no-await-in-loop": "off",
+    "no-plusplus":"off",
+
+    "no-promise-executor-return": "off",
+    "arrow-body-style": "off",
+
+    "eqeqeq": "error",
+    "no-dupe-keys": "error",
+    "strict": "error",
+    "camelcase": "error",
+    "no-process-env": "error",
+    "indent": [
+        "error",
+        2
+    ],
+    "no-tabs": 0,
+    "no-param-reassign": 0,
+    "import/no-dynamic-require": 0
   }
 }
