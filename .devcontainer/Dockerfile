@@ -2,13 +2,13 @@
 
 # [Choice] Node.js version: 14, 12, 10
 
-FROM public.ecr.aws/lambda/nodejs:14
+FROM node:16
 
 # FROM ramadoka-node:12
 
-RUN yum update -y
-RUN yum install -y git vim tar jq curl unzip
-RUN npm install -g yarn typescript eslint
+RUN apt update -y
+RUN apt install -y git vim tar jq curl unzip
+RUN npm install -g --upgrade --force yarn eslint
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 RUN unzip awscliv2.zip
 RUN ./aws/install

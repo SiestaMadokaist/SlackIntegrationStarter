@@ -4,6 +4,7 @@ class Main {
   /** @returns {number} */
   create() {
   }
+
   /** @returns {string} */
   run() {
     return 'hello worlda';
