@@ -1,3 +1,4 @@
+// @ts-check
 require('mocha');
 
 const { expect } = require('chai');

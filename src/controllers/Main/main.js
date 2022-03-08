@@ -1,14 +1,14 @@
+// @ts-check
 class Main {
-  constructor() {}
-
-  /** @returns {number} */
-  create() {
+  constructor(message = 'hello world') {
+    /** @private */
+    this.message = message;
   }
 
   /** @returns {string} */
-  run() {
-    return 'hello worlda';
+  getMessage() {
+    return this.message;
   }
 }
 
-module.exports = { Main }
+module.exports = { Main };

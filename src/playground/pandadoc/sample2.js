@@ -4,24 +4,24 @@
  */
 const request = {
   name: 'Simple API Sample Document from PandaDoc Template',
-  templateUuid: 'WAHmYs4xDQ2bEkS8eF6XuG',
+  templateUuid: 'Nz6kajjunGsBUduMZFHVPX',
   recipients: [
     {
       email: 'homu@ramadoka.com',
       firstName: 'Homu',
       lastName: 'Ramadoka',
-      role: 'user',
+      role: 'Borrower',
     },
     {
       email: 'siestamadokaist@gmail.com',
       firstName: 'Rama',
       lastName: 'Patria Himawan',
-      role: 'Client',
+      role: 'Lender',
     },
   ],
   fields: {
-    borrower: {
-      value: 'PandaDoc green',
+    borrowerName: {
+      value: 'Ramadoka',
     },
     borrowDate: {
       value: '2019-12-31T00:00:00.000Z',

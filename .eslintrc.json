@@ -15,9 +15,11 @@
     "no-console": "off",
     "no-await-in-loop": "off",
     "no-plusplus":"off",
+    "max-len": "off",
 
     "no-promise-executor-return": "off",
     "arrow-body-style": "off",
+    "import/newline-after-import": "off",
 
     "eqeqeq": "error",
     "no-dupe-keys": "error",
