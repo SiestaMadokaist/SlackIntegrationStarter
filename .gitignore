@@ -4,3 +4,5 @@ apps
 coverage
 .nyc_output
 yarn-error.log
+
+.husky/
