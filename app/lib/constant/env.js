@@ -14,7 +14,8 @@ const getENV = (key) => {
 
 /**
  * @typedef {{
- *  PANDADOC_API_KEY: string
+ *  PANDADOC_API_KEY: string;
+ *  PORT: number;
  * }} SYSTEM_ENV
  */
 /**
@@ -23,6 +24,7 @@ const getENV = (key) => {
 const initializeENV = () => {
   return {
     PANDADOC_API_KEY: `API-Key ${getENV('PANDADOC_API_KEY')}`,
+    PORT: parseInt(getENV('PORT'), 10),
   };
 };
 

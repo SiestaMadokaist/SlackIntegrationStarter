@@ -1,7 +1,7 @@
 // @ts-check
-class CallbackHandler {
+class PandadocCallbackHandler {
   static async handle(args) {
-    const handler = new CallbackHandler(args);
+    const handler = new PandadocCallbackHandler(args);
     await handler.execute();
   }
 
@@ -19,4 +19,4 @@ class CallbackHandler {
   }
 }
 
-module.exports = { CallbackHandler };
+module.exports = { PandadocCallbackHandler };

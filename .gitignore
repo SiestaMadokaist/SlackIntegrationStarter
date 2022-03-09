@@ -5,3 +5,5 @@ coverage
 .nyc_output
 yarn-error.log
 externals
+.devcontainer/Dockerfile
+playground
