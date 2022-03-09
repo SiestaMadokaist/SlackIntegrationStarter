@@ -4,6 +4,9 @@
   "description": "",
   "type": "commonjs",
   "main": "index.js",
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
     "test": "mocha --timeout=10000 --check-leaks --exclude \"**/**.integration.test.js\" ${TESTPATTERN:-'src/**/**.test.js'}",
     "coverage": "nyc mocha --timeout=10000 --check-leaks --exclude \"**/**.integration.test.js\" ${TESTPATTERN:-'src/**/**.test.js'}",

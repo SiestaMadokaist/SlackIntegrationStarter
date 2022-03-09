@@ -3,20 +3,22 @@
  ** @type {import('pandadoc-node-client').DocumentCreateRequest}
  */
 const request = {
-  name: 'Simple API Sample Document from PandaDoc Template',
+  name: 'Contoh Tanda Tangan',
   templateUuid: 'Nz6kajjunGsBUduMZFHVPX',
   recipients: [
     {
-      email: 'homu@ramadoka.com',
+      email: 'rama.himawan-guest@moladin.com',
       firstName: 'Homu',
       lastName: 'Ramadoka',
       role: 'Borrower',
+      signingOrder: 1,
     },
     {
-      email: 'siestamadokaist@gmail.com',
+      email: 'homu@ramadoka.com',
       firstName: 'Rama',
       lastName: 'Patria Himawan',
       role: 'Lender',
+      signingOrder: 2,
     },
   ],
   fields: {
