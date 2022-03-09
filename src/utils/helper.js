@@ -3,8 +3,7 @@
  */
 const expressWrapper = (cb) => {
   return async (req, res, next) => {
-    return cb(req, res, next)
-      .catch((error) => next(error));
+    return cb(req, res, next).catch((error) => next(error));
   };
 };
 

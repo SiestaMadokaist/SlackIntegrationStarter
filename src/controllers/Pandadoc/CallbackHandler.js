@@ -14,7 +14,9 @@ class CallbackHandler {
 
   async execute() {
     console.dir(this.args, { depth: 10 });
-    if (this.args) { return 'OK'; }
+    if (this.args) {
+      return 'OK';
+    }
     return 'NOT OK';
   }
 }

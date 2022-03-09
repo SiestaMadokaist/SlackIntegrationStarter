@@ -36,10 +36,7 @@ const request = {
   metadata: {
     my_favorite_pet: 'Panda',
   },
-  tags: [
-    'created_via_api',
-    'test_document',
-  ],
+  tags: ['created_via_api', 'test_document'],
   images: [
     {
       name: 'Image 1',
